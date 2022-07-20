@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: Web table user order feature
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 203.556 s <<< FAILURE! - in Web table user order feature
+Web table user order feature.User should be able to place order and order seen in web table #7  Time elapsed: 16.221 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Marie Curie]> but was:<[Charles Darwin]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.Order_StepDefinitions.user_should_see_in_first_row_of_the_web_table(Order_StepDefinitions.java:123)
+	at ✽.user should see "Marie Curie" in first row of the web table(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/webtableOrder.feature:32)
+
+Web table user order feature.User should be able to place order and order seen in web table #8  Time elapsed: 12.296 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Rosalind Frankl]in> but was:<[Albert Einste]in>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.Order_StepDefinitions.user_should_see_in_first_row_of_the_web_table(Order_StepDefinitions.java:123)
+	at ✽.user should see "Rosalind Franklin" in first row of the web table(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/webtableOrder.feature:32)
+
+Web table user order feature.User should be able to place order and order seen in web table #9  Time elapsed: 9.511 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[List Meitner]> but was:<[CV Raman]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.Order_StepDefinitions.user_should_see_in_first_row_of_the_web_table(Order_StepDefinitions.java:123)
+	at ✽.user should see "List Meitner" in first row of the web table(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/webtableOrder.feature:32)
+
+Web table user order feature.User should be able to place order and order seen in web table #10  Time elapsed: 6.983 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Chien-Shiung wu]> but was:<[Galileo]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.Order_StepDefinitions.user_should_see_in_first_row_of_the_web_table(Order_StepDefinitions.java:123)
+	at ✽.user should see "Chien-Shiung wu" in first row of the web table(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/webtableOrder.feature:32)
+
+Web table user order feature.User should be able to place order and order seen in web table #11  Time elapsed: 5.501 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Barbara McClintock]> but was:<[Isaac Newton]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.Order_StepDefinitions.user_should_see_in_first_row_of_the_web_table(Order_StepDefinitions.java:123)
+	at ✽.user should see "Barbara McClintock" in first row of the web table(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/webtableOrder.feature:32)
+

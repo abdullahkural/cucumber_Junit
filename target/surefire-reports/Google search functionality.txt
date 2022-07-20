@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: Google search functionality
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 93 s <<< FAILURE! - in Google search functionality
+Google search functionality.Search functionality result title verification #1  Time elapsed: 15.619 s  <<< FAILURE!
+org.junit.ComparisonFailure: Title is not as expected! expected:<[apple - Google Search]> but was:<[Google]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.cydeo.step_definitions.GoogleStepDefinitions.user_sees_apple_in_the_google_title(GoogleStepDefinitions.java:47)
+	at ✽.user sees apple in the google title(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/googleSearch.feature:11)
+
+Google search functionality.Search functionality result title verification #2  Time elapsed: 14.79 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0JLDRBC', ip: '192.168.178.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ddbd14c1a786c23b853f9d80e42c788
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor85.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+	at com.cydeo.step_definitions.GoogleStepDefinitions.user_types_and_clicks_enter(GoogleStepDefinitions.java:25)
+	at ✽.user types "apple" and clicks enter(file:///C:/Users/Gebruiker/IdeaProjects/cydeo-cucumber-junit/src/test/resources/features/googleSearch.feature:15)
+
